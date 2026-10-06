@@ -1,8 +1,8 @@
-# ai e-commerce support agent
+# Ai e-commerce support agent
 
 an n8n project that handles customer support and e-commerce tasks using ai and automated tools.
 
-## features
+## Features
 
 - order lookup
 - inventory lookup
@@ -12,7 +12,7 @@ an n8n project that handles customer support and e-commerce tasks using ai and a
 - interaction and error logging
 - webhook authentication
 
-## workflows
+## Workflows
 
 - customer support agent
 - tool - get order
@@ -21,18 +21,18 @@ an n8n project that handles customer support and e-commerce tasks using ai and a
 - tool - human escalation
 - order shipped webhook
 
-## stack
+## Stack
 
 - n8n
 - openrouter / deepseek
 - n8n data tables
 - webhooks
 
-## security
+## Security
 
 webhooks use header authentication.
 
-## testing
+## Testing
 
 tested:
 - valid and invalid orders
